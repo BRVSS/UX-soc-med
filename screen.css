@@ -2,3 +2,52 @@
 a.active {
     font-weight: bold;
 }
+
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:aliceblue;
+    color:#1e1e1e;
+}
+
+h1{
+    margin:0;
+    text-align: center;
+    font-size: 7em;
+    letter-spacing: 10%;
+}
+
+
+main{
+    margin-top:2em;
+}
+
+.profile img{
+    width: 10em;
+    float:left;
+}
+
+.intro{
+    display:flex;
+    align-items: flex-end;
+    margin: 1em 1em .5em 4em;
+}
+
+h2{
+    font-size: 2em;
+    margin: 0;
+    padding-left: 1em;
+}
+
+.about{
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #D9d9d9;
+    border-style: solid;
+    border-color: #a9a9a9;
+    /* border-radius: 5%; */
+    margin:0 2em 0 2em;
+}
+
+/* .about h3{
+    
+} */
