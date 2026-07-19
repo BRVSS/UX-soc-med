@@ -17,19 +17,21 @@ h1{
 }
 
 
-main{
-    margin-top:2em;
-}
+/* main{
+    margin-top:.25em;
+} */
 
 .profile img{
     width: 10em;
     float:left;
+    border-style: solid;
+    border-color: #a9a9a9;
 }
 
 .intro{
     display:flex;
     align-items: flex-end;
-    margin: 1em 1em .5em 4em;
+    margin: 1em 1em .5em 3em;
 }
 
 h2{
@@ -44,10 +46,78 @@ h2{
     background-color: #D9d9d9;
     border-style: solid;
     border-color: #a9a9a9;
-    /* border-radius: 5%; */
+    border-radius: .25em;
     margin:0 2em 0 2em;
+    padding:1.5em;
+    padding-top:0;
 }
 
-/* .about h3{
-    
-} */
+h3{
+    font-size: 1.5em;
+    margin-bottom:0;
+}
+
+h4{
+    margin:0;
+    font-weight:550;
+}
+
+
+.content{
+    margin:2em;
+}
+
+
+h5{
+    color: #505050;
+    margin:0;
+    margin-bottom:.25em;
+    font-size: 1.25em;
+}
+
+.post{
+    padding:.5em;
+    border-style:solid;
+    border-color:#a9a9a9;
+    border-radius:.25em;
+    background-color: #f1f1f1;
+    font-size: 1.75em;
+    margin-bottom: .5em;
+}
+
+
+.engagement{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 2em;
+}
+
+.engagement img{
+    height:.75em;
+}
+
+.metrics{
+    color: #505050;
+    margin:0;
+    font-size: .75em;
+}
+
+.likes{
+    display: flex;
+    align-items: center;
+    gap: .5em;
+}
+
+.comments{
+    display:flex;
+    align-items: center;
+    gap: .5em;
+}
+
+.shares{
+    display:flex;
+    align-items: center;
+    gap: .5em;
+    margin-right: 1em;
+}
